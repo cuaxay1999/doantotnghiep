@@ -1,0 +1,76 @@
+{
+  "router": {
+    "home": "Home",
+    "user": "Quản lý người dùng",
+    "user_add": "Thêm người dùng",
+    "device": "Thiết bị",
+    "device_add": "Thêm mới thiết bị",
+    "article": "Tin tức",
+    "article_add": "Thêm mới tin tức",
+    "infor": "Thông tin WQI",
+    "login": "Đăng nhập"
+  },
+
+  "common": {
+    "logout": "Logout"
+  },
+
+  "label": {
+    "action": "Action",
+    "location": "Địa chỉ",
+    "type": "Type",
+    "pH": "pH",
+    "wqi": "WQI",
+    "temperature": "Temperature",
+    "turbidity": "Turbidity",
+    "DO": "DO",
+    "NH4": "NH4",
+    "BOD5": "BOD5",
+    "tss": "tss",
+    "coliform": "coliform",
+    "cod": "cod",
+    "PO4": "PO4",
+    "device_name": "Device Name",
+    "longtitude": "Longtitude",
+    "latitude": "Latitude",
+    "email": "Email",
+    "password": "Password",
+    "confirm_password": "Confirm Password",
+    "name": "Họ và tên",
+    "phone": "Số điện thoại",
+    "role": "Role",
+    "status": "Trạng thái",
+    "time": "Thời gian",
+    "device": "Thiết bị"
+  },
+
+  "title": {
+    "device_list": "Danh sách thiết bị",
+    "device_add": "Thêm mới thiết bị",
+    "user_list": "Danh sách người dùng",
+    "user_add": "Thêm mới người dùng",
+    "wqi": "Tìm kiếm thông tin WQI",
+    "artile": "Tuyển tập những bài viết hay",
+    "artile_add": "Thêm mới bài viết",
+    "disable_user_confirm": "Bạn có muốn hủy kích hoạt tài khoản này?",
+    "active_user_confirm": "Bạn có chắc chắn muốn kích hoạt tài khoản này?"
+  },
+
+  "button": {
+    "add": "Thêm mới",
+    "save": "Lưu lại"
+  },
+
+  "message": {
+    "add_new_user": "Thêm người dùng mới thành công",
+    "add_new_device": "Thêm thiết bị mới thành công",
+    "disable_user": "Hủy kích hoạt người dùng thành công",
+    "enable_user": "Kích hoạt người dùng thành công",
+    "update_success": "Cập nhật thành công",
+    "error": "Has error, please try again"
+  },
+
+  "validation": {
+    "required": "{attribute} is a required item."
+  }
+}

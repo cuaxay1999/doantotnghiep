@@ -1,0 +1,3 @@
+mqtt-server: npm run dev
+wqi-manage-js: npm run serve
+wqi-server: php artisan serve

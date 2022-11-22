@@ -1,0 +1,236 @@
+@import './variables.scss';
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.block {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+// font-size
+.f-1 {
+  font-size: 1rem;
+}
+
+.f-2 {
+  font-size: 1.25rem;
+}
+
+.f-3 {
+  font-size: 1.5rem;
+}
+
+.f-4 {
+  font-size: 2rem;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+// box-shadow
+.box-shadow-1 {
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+}
+
+.box-shadow-bordered {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  border-radius: 4px;
+}
+
+.hover-shadow {
+  box-shadow: 0 6px 18px -8px rgba(94, 86, 105, 0.56);
+}
+
+// padding
+.pd-1-em {
+  padding: 1em;
+}
+
+.pb-1-em {
+  padding-bottom: 1em;
+}
+
+// margin
+.ml-auto {
+  margin-left: auto;
+}
+
+.mb-1-em {
+  margin-bottom: 1em;
+}
+
+.mt-1-em {
+  margin-top: 1em;
+}
+
+.mr-1-em {
+  margin-right: 1em;
+}
+
+.py-1-em {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+// border-radius
+.bordered-5 {
+  border-radius: 5px;
+}
+
+// btn
+.btn {
+  min-width: 110px;
+}
+
+.btn--green {
+  background-color: $darkGreenColor;
+  border-color: $darkGreenColor;
+  color: white;
+
+  &:hover,
+  &:focus {
+    color: white;
+    background-color: $greenColor;
+    border-color: $greenColor;
+  }
+}
+
+.btn--blue {
+  background-color: $primaryColor;
+  border-color: $primaryColor;
+  color: white;
+
+  &:hover,
+  &:focus {
+    background-color: $whiteBlueColor;
+    border-color: $whiteBlueColor;
+    color: white;
+  }
+}
+
+.btn--orange {
+  background-color: $orangeColor;
+  border-color: $orangeColor;
+  color: white;
+
+  &:hover,
+  &:focus {
+    background-color: $whiteOrangeColor;
+    border-color: $whiteOrangeColor;
+    color: white;
+  }
+}
+
+.btn--red {
+  background-color: $errorColor !important;
+  border-color: $errorColor !important;
+  color: white !important;
+
+  &:hover,
+  &:focus {
+    @extend .hover-shadow;
+  }
+}
+
+// width
+.w-100 {
+  width: 100% !important;
+}
+
+// background
+.bg--white {
+  background-color: white;
+}
+
+.bg--gray {
+  background-color: #f1f2f7;
+}
+
+.rounded {
+  border-radius: 50%;
+}
+
+.wqi-number {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 10em;
+  width: 10em;
+  color: white;
+  margin: 0 auto;
+  font-weight: 700;
+}
+
+.wqi-infor {
+  background-color: #f5f5ff;
+  width: fit-content;
+  min-width: 135px;
+  max-width: 140px;
+  border-radius: 12px;
+  padding: 0.35em 0.5em;
+  margin-bottom: 1em;
+  &:hover {
+    background-color: #ebf5ff;
+  }
+}
+
+.mb-16 {
+  margin-bottom: 16px;
+}
+
+.wqi--danger {
+  background-color: rgb(126, 0, 35);
+}
+
+.wqi--bad {
+  background-color: rgb(255, 0, 0);
+}
+
+.wqi--warning {
+  background-color: rgb(255, 126, 0);
+}
+
+.wqi--mid {
+  background-color: rgb(255, 255, 0);
+  color: #3a3a3a;
+}
+
+.wqi--medium {
+  background-color: rgb(0, 228, 0);
+}
+
+.wqi--good {
+  background-color: rgb(51, 51, 255);
+}
+
+.card-header {
+  text-transform: uppercase;
+  background-color: #1f2d4f;
+  font-weight: 700;
+  color: white;
+  padding: 1rem;
+  border-radius: 4px;
+  margin-bottom: 1em;
+}
